@@ -1,0 +1,95 @@
+body{
+    background-color: #ffffff;
+    margin: 0;
+
+}
+
+#nav{
+    background-color: #550E96;
+    padding-left: 0.3rem;
+
+}
+
+.nav-item{
+    border: none; 
+    background-color: transparent;
+    color: #ffffff;
+    padding: 0.5rem;
+
+}
+
+.cards{    
+    border-style: solid;
+    border-radius: 1rem;
+    border-color: #550E96;
+    background-size: cover;
+    background-color: #8a2be2;
+    margin: 6px;
+    width: 8rem;
+    height: 8rem;
+    transition: all .3s linear;
+
+}
+
+.cards2{    
+    border-style: solid;
+    border-radius: 0.8rem;
+    border-color: #550E96;
+    background-size: cover;
+    background-color: #8a2be2;
+    margin: 6px;
+    width: 5rem;
+    height: 5rem;  
+    transition: all .3s linear;
+
+}
+
+.cards3{    
+    border-style: solid;
+    border-radius: 0.7rem;
+    border-color: #550E96;
+    background-size: cover;
+    background-color: #8a2be2;
+    margin: 6px;
+    width: 4rem;
+    height: 4rem;
+    transition: all .3s linear;
+
+}
+
+#card {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.nav-item:hover
+{
+  background-color: #A74AFF;   
+
+}
+
+.flip{
+    transform: rotateY(180deg);
+
+}
+
+#scoreboard{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+#score{
+    border-style: solid;
+    border-color:#3007AD;
+    background-color: #3007AD;
+    margin: 0;
+    width: fit-content;
+    color: #ffffff;
+
+}
