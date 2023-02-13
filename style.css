@@ -93,3 +93,12 @@ body{
     color: #ffffff;
 
 }
+
+@media only screen and (max-width: 550px) {
+    .cards3 {
+        margin: 5px;
+        width: 3rem;
+        height: 3rem;
+    }
+  }
+  

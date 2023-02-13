@@ -4,24 +4,24 @@ const winCheck = [];
 let score;
 let xy; //xy = values for create at winningCheck
 const players = [
-  '/images/bronny.png', 
-  '/images/davis.png', 
-  '/images/doncic.png', 
-  '/images/durant.png',
-  '/images/edwards.png',
-  '/images/giannis.png',
-  '/images/harden.png',
-  '/images/herro.png',
-  '/images/jokic.png',
-  '/images/lamelo.png',
-  '/images/lebron.png',
-  '/images/lonzo.png',
-  '/images/morant.png',
-  '/images/shaq.png',
-  '/images/steph.png',
-  '/images/tatum.png',
-  '/images/young.png',
-  '/images/zion.png',
+  './images/bronny.png', 
+  './images/davis.png', 
+  './images/doncic.png', 
+  './images/durant.png',
+  './images/edwards.png',
+  './images/giannis.png',
+  './images/harden.png',
+  './images/herro.png',
+  './images/jokic.png',
+  './images/lamelo.png',
+  './images/lebron.png',
+  './images/lonzo.png',
+  './images/morant.png',
+  './images/shaq.png',
+  './images/steph.png',
+  './images/tatum.png',
+  './images/young.png',
+  './images/zion.png',
   ];
 
 function create(x)  
@@ -180,3 +180,7 @@ function winningCheck()
     
   
 }
+
+
+
+
